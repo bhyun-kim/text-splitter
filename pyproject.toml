@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "text-splitter"
+version = "0.1.0"
+description = "A Python library for splitting text into small chunks by word count."
+authors = [
+  { name="Sean Kim", email="kimbh.mail@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["text", "split", "nlp"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+dependencies = []
